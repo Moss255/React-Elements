@@ -7,7 +7,7 @@ interface IInfoProps {
 const Info = (props: IInfoProps) => {
     return (
         <div>
-            <span className='material-icons icon'>info</span>
+            <span className='material-icons icon'>info_outlined</span>
             <span>{props.tooltipText}</span>
         </div>
     )
