@@ -1,0 +1,14 @@
+section {
+  padding: 1em;
+}
+
+.actions {
+  --grid-space: 1rem;
+  display: grid;
+  gap: var(--grid-space);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.contents {
+  padding: 2em;
+}
